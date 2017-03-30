@@ -1,0 +1,55 @@
+
+/* DEFAULTS SECTIONS */
+.page-header {
+  display:none;
+}
+.container {
+  width: 100%;
+  padding: 0;
+}
+.section {
+  padding: 0;
+}
+.section .row .row {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  padding: 40px 40px 80px 40px;
+}
+.section .row .row .row {
+  padding: 0;
+}
+#block-system-main .row .row .row {
+  padding: 0;
+}
+.section-grey {
+  background: #e8e8e8;
+}
+.section-maroon {
+  background: #8c1d40;
+  color: #ffffff;
+}
+.section-maroon p {
+  color:#ffffff;
+}
+
+#block-views-sections-block .btn {
+	border-radius: 0;
+	margin: 0;
+}
+
+/* ------------------------------ */
+/* SECTION DARK */
+.region-content .section-dark {
+  background:#4D4D4D;
+  color: #FFFFFF;
+}
+.region-content .section-dark p {
+  color: #FFFFFF;
+}
+
+.section-top-zero .row {
+  padding-top:0;
+}
+.section-bottom-zero .row {
+  padding-bottom:0;
+}

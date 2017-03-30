@@ -1,0 +1,138 @@
+
+/* ------------------------------ */
+/* OKED NAVBAR */
+#block-superfish-1 {
+  opacity: 1;
+  clear: both;
+  font-weight: 700;
+}
+ul#superfish-1 {
+  max-width: 1270px;
+  float: none;
+  margin: 0 auto;
+  list-style: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#superfish-1 li a {
+  color: #FFF;
+}
+#superfish-1 li a:hover {
+  color: #ffb310;
+}
+.sf-menu.sf-style-default li {
+  float: left;
+  position: relative;
+}
+#block-superfish-1,
+.sf-menu.sf-style-default li {
+  background: #353535 !important;
+  height: 54px;
+  line-height: 22px;
+}
+.sf-menu.sf-style-default a,
+.sf-menu.sf-style-default a:visited {
+  padding: 15px 25px;
+  font-size: 16px;
+  color: #EDEDED;
+  border: none;
+}
+.sf-menu.sf-style-default li ul {
+  max-width: 210px;
+  left: 0 !important;
+}
+.sf-menu.sf-style-default li li,
+.sf-menu.sf-style-default li li li {
+  height: auto;
+  max-width: 210px;
+}
+.sf-menu.sf-style-default li li a {
+  padding: 20px 20px !important;
+  font-size: 16px !important;
+  max-width: 210px;
+}
+.sf-menu.sf-style-default li li a li a {
+  padding: 0px !important;
+}
+.sf-menu.sf-style-default li:hover,
+.sf-menu.sf-style-default li.sfHover,
+.sf-menu.sf-style-default a:focus,
+.sf-menu.sf-style-default a:hover,
+.sf-menu.sf-style-default a:active,
+.sf-menu.sf-style-default span.nolink:hover,
+#superfish-1 .active-trail .active{
+  color: #ffb310;
+  opacity: 1 !important;
+  background-color: #000000;
+  text-decoration: none;
+}
+#superfish-1 > li.active-trail > a,
+#superfish-1 > .active-trail span {
+  color: #ffb310;
+}
+ul.sf-megamenu {
+  left: -245px !important;
+  width: 1250px !important;
+}
+ul.sf-megamenu .sf-megamenu-wrapper {
+  width: 1250px !important;
+}
+li#menu-352-1 ul.sf-megamenu  {
+  width: auto !important;
+  max-width: 500px !important;
+}
+ul.sf-megamenu li,
+ul.sf-megamenu li span.nolink {
+  background: #1F1F1F !important;
+}
+.sf-menu li:hover > ul, .sf-menu li.sfHover > ul {
+  top: 55px;
+}
+.active-trail i.fa.fa-home {
+  color: #ffb310;
+  font-size: 17px;
+}
+.menuparent a > .sf-sub-indicator, span.nolink > .sf-sub-indicator {
+  top: 1.5em;
+}
+.menuparent a > .sf-sub-indicator span.nolink:hover{
+  color: #ffb310;
+}
+.menuparent a >  span.sf-sub-indicator {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin-top: -6px;
+}
+i.fa.fa-sort-desc {
+  float: right;
+  margin: -1px 0px 0px 7px;
+}
+/* OVERRIDE SUPERFISH SETTINGS */
+#superfish-1 .active-trail .active {
+    color: #ffb310;
+    opacity: 1 !important;
+    background-color: #000000;
+    text-decoration: none;
+}
+#superfish-1 .active-trail .active:hover {
+    color: #ffb310;
+    opacity: 1 !important;
+    background-color: transparent;
+    text-decoration: none;
+}
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited {
+    padding: 15px 25px 17px;
+}
+#block-superfish-1 .sf-accordion-toggle {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  #asu_logo {
+    width: 72px;
+  }
+  #block-superfish-1 {
+    height: 10px;
+    background: #bbbbbb !important;
+  }
+}
