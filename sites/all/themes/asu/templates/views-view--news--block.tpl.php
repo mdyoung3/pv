@@ -31,7 +31,7 @@
     <div class="row">
         <div class="col-md-12">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
 
             <h2>News</h2>
             <hr>
@@ -52,10 +52,11 @@ foreach($result as $k => $v){
 ?>
 
 
-<?php if ($pager): ?>
-    <?php print $pager; ?>
-<?php endif; ?>
+
         </div>
+        <?php if ($pager): ?>
+            <?php print $pager; ?>
+        <?php endif; ?>
 
     </div>
         </div>
