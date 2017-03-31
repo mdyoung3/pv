@@ -1,0 +1,53 @@
+/**
+ * Place your custom styles here.
+ */
+
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+
+.page-node-12 .views-row {
+  margin-bottom: 20px;
+}
+.page-node-12 .views-field-title {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.img-responsive {
+  display: inline;
+}
+
+
+/* PULL THESE INTO MAIN CSS */
+.region-content .section-gold {
+  background: #FFC627;
+  color: #fff;
+}
+#region-home-banner .col-sm-6 {
+  background: rgba(0,0,0,0.9);
+  border-radius: 10px;
+}
+#region-home-banner h2 {
+  color: #FFC627;
+}
+.img-banner-top {
+	background-position: 50% 1% !important;
+}
+.img-banner-bottom {
+	background-position: 50% 99% !important;
+}
+.sf-menu.sf-style-default span.nolink {
+  border: none;
+  color: #fff;
+  padding: 15px 25px 17px;
+}
