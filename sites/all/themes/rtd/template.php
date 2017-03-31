@@ -3,7 +3,11 @@ function template_preprocess_html(&$variables)
 {
     $domain = $_SERVER['SERVER_NAME'];
 
+<<<<<<< HEAD
     if ($domain != 'pv.asu.edu') {
+=======
+    if ($domain != 'research.asu.edu') {
+>>>>>>> 13cde66d8c992acff6e0bc63f91294ef9d007707
 
         $nofollow_meta = array(
             '#tag' => 'meta',

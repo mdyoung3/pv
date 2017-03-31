@@ -1,4 +1,5 @@
 # Ignore configuration files that may contain sensitive information.
+<<<<<<< HEAD
 sites/*/*settings*.php
 
 # Ignore paths that contain generated content.
@@ -7,3 +8,10 @@ sites/*/private
 
 .DS_Store
 .idea
+=======
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+>>>>>>> 13cde66d8c992acff6e0bc63f91294ef9d007707
