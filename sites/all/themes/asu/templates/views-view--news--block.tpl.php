@@ -45,7 +45,7 @@ foreach($result as $k => $v){
     }
 
     print '<h3>' . $title . '</h3>';
-    if($body){
+    if(isset($body)){
         print "<div class='news'>" . $body . "</div>";
     }
 }
