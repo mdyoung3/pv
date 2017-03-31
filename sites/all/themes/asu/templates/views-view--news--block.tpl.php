@@ -33,15 +33,21 @@
     <div class="row">
         <div class="col-md-12">
 
+            <h2>News</h2>
+            <hr>
+
 <?php
 $result = $view->result;
 foreach($result as $k => $v){
     $title = $v->node_title;
-    $body = $v->field_body[0]['raw']['safe_value'];
+    if(isset($v->field_body[0])){
+        $body = $v->field_body[0]['raw']['safe_value'];
+    }
 
     print '<h3>' . $title . '</h3>';
-    print "<div>" . $body . "</div>";
-
+    if($body){
+        print "<div class='news'>" . $body . "</div>";
+    }
 }
 ?>
 

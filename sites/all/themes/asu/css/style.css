@@ -52,3 +52,7 @@ img {
   padding: 15px 25px 17px;
 
 }
+.text-center {
+  width: 100%;
+  float: left;
+}
