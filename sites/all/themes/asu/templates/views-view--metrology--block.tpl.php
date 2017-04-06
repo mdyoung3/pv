@@ -31,18 +31,22 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-9">
                     <?php
                     $result = $view->result;
 
                     foreach ($result as $k => $v) {
                         $title = $v->node_title;
                         $path = '/sites/default/files/metrology/';
-                        $image_name = $v->field_field_met_image[0]['raw']['filename'];
+                        if(isset($v->field_field_met_image[0])){
+                            $image_name = $v->field_field_met_image[0]['raw']['filename'];
+                        }
                         $link = $v->_field_data['nid']['entity']->nid;
 
                         print "<a href='/node/" . $link . "'><h3>" . $title . "</h3></a>";
-                        print "<img src='" . $path . $image_name . "'/>";
+                        if($image_name){
+                            print "<img src='" . $path . $image_name . "'/>";
+                        }
                     }
                     ?>
                 </div>
