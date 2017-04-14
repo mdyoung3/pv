@@ -23,13 +23,13 @@
 				</div>
 			</div><!-- .col -->
 			<div class="col-md-3 col-sm-6 col-xs-12">
-				<h3>Research</h3>
+				<!--<h3>Research</h3>
 				<ul>
 					<li><a href="#link" target="_blank">Science of Learning</a></li>
 					<li><a href="#link">Learning &amp; Cognition</a></li>
 					<li><a href="#link" target="_blank">Designing Equitable Learning, Teaching, and Assessment</a></li>
 					<li><a href="#link">Project Information</a></li>
-				</ul>
+				</ul>-->
 			</div><!-- .col -->
 			<div class="col-md-3 col-sm-6 col-xs-12">
 				<h3>About</h3>
