@@ -6,7 +6,7 @@ if (arg(0) == 'node' && is_numeric(arg(1))) {
 ?>
 
 <?php
-if (!isset($user->roles[1])) {
+if (isset($user->roles[3]) || isset($user->roles[5])) {
     printf('<div id="editor-menu">
     <div class="row">
 
