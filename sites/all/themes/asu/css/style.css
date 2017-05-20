@@ -82,4 +82,18 @@ img {
   font-size: 36px;
   padding: 8px 20px 10px 13px;
 }
+@media (max-width: 780px) {
+  .flexslider .views-field-body {
+    bottom: 14px;
+  }
+  .flexslider .views-field-title {
+    bottom: 56px;
+  }
+  .flexslider .views-field-title .field-content {
+    font-size: 30px;
+  }
+  .flexslider .views-field-body .field-content p {
+    font-size: 18px;
+  }
+}
 

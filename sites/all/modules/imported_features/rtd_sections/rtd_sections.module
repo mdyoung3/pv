@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the RTD Sections feature.
+ */
+
+include_once 'rtd_sections.features.inc';
