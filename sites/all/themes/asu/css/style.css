@@ -58,5 +58,28 @@ img {
 }
 .flexslider {
   position: relative;
+  margin-top: 13px;
+}
+.flexslider .views-field-title {
+  position: absolute;
+  bottom: 100px;
+  left: 35px;
+}
+.flexslider .views-field-title .field-content {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 60px;
+  font-weight: bold;
+}
+.flexslider .views-field-body {
+  background-color: #000;
+  position: absolute;
+  bottom: 65px;
+  left: 35px;
+}
+.flexslider .views-field-body .field-content p {
+  color: #FFC627;
+  font-size: 36px;
+  padding: 8px 20px 10px 13px;
 }
 
