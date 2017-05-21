@@ -83,6 +83,18 @@ img {
   padding: 8px 20px 10px 13px;
 }
 @media (max-width: 780px) {
+  .col-sm-12 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .flexslider {
+    margin-top: 0;
+  }
+  .slides {
+    margin: 0;
+    padding: 0;
+  }
   .flexslider .views-field-body {
     bottom: auto;
     left: auto;
@@ -102,4 +114,3 @@ img {
     font-size: 18px;
   }
 }
-
