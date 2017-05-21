@@ -1,0 +1,15 @@
+name = Feature Slider
+description = Slider Content Type
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = feature_base_fields
+dependencies[] = features
+dependencies[] = image
+dependencies[] = link
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = node-slider-body
+features[field_instance][] = node-slider-field_link
+features[field_instance][] = node-slider-field_slider_image
+features[node][] = slider
