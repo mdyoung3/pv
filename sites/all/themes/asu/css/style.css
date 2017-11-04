@@ -82,6 +82,19 @@ img {
   font-size: 36px;
   padding: 8px 20px 10px 13px;
 }
+.pagination > li > a,
+.pagination > li > span {
+  color: #8C1D40;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #8C1D40;
+  border-color: #8C1D40;
+}
 @media (max-width: 780px) {
   .col-sm-12 {
     width: 100%;
