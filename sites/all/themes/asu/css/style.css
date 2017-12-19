@@ -82,6 +82,23 @@ img {
   font-size: 36px;
   padding: 8px 20px 10px 13px;
 }
+#block-views-slider-block {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+.front #block-system-main {
+  width: 70%;
+  padding: 0;
+  float: left;
+}
+#block-block-4 {
+  width: 23%;
+  float: right;
+}
+.view-id-start .views-field-title a {
+  font-weight: bold;
+}
 .pagination > li > a,
 .pagination > li > span {
   color: #8C1D40;
