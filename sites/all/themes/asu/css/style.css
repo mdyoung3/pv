@@ -62,7 +62,7 @@ img {
 }
 .flexslider .views-field-title {
   position: absolute;
-  bottom: 100px;
+  bottom: 130px;
   left: 35px;
 }
 .flexslider .views-field-title .field-content a {
@@ -75,12 +75,13 @@ img {
   background-color: #000;
   position: absolute;
   bottom: 65px;
-  left: 35px;
+  left: 39px;
 }
 .flexslider .views-field-body .field-content p {
   color: #FFC627;
   font-size: 36px;
   padding: 8px 20px 10px 13px;
+  line-height: 1em;
 }
 #block-views-slider-block {
   width: 100%;
