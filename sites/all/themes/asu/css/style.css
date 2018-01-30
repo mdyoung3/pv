@@ -70,11 +70,12 @@ img {
   color: #FFF;
   font-size: 60px;
   font-weight: bold;
+  text-shadow: 1px 1px #888;
 }
 .flexslider .views-field-body {
   background-color: #000;
   position: absolute;
-  bottom: 65px;
+  bottom: 45px;
   left: 39px;
 }
 .flexslider .views-field-body .field-content p {
@@ -93,7 +94,7 @@ img {
   padding: 0;
   float: left;
 }
-#block-block-4 {
+.block.twitter {
   width: 23%;
   float: right;
 }
