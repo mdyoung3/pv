@@ -145,4 +145,11 @@ img {
   .flexslider .views-field-body .field-content p {
     font-size: 18px;
   }
+  .front #block-system-main {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .block.twitter {
+    display: none;
+  }
 }
