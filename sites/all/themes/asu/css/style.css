@@ -65,6 +65,7 @@ img {
   bottom: 130px;
   left: 35px;
 }
+.flexslider .views-field-title .field-content,
 .flexslider .views-field-title .field-content a {
   text-transform: uppercase;
   color: #FFF;
@@ -138,6 +139,7 @@ img {
     position: relative;
     background-color: #4A4A4A;
   }
+  .flexslider .views-field-title .field-content, 
   .flexslider .views-field-title .field-content a {
     font-size: 22px;
     padding-left: 10px;
