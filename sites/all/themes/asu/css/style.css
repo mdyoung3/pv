@@ -73,6 +73,9 @@ img {
   font-weight: bold;
   text-shadow: 1px 1px #888;
 }
+.flexslider .views-field-title .field-content a.dark {
+  color: #444;
+}
 .flexslider .views-field-body {
   background-color: #000;
   position: absolute;
